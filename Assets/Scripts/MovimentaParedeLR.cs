@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MovimentaParede : MonoBehaviour
+public class MovimentaParedeLR : MonoBehaviour
 {
     public float countDown;
 
@@ -11,19 +11,6 @@ public class MovimentaParede : MonoBehaviour
 
     }
 
-    /*void Update()
-    {
-        if(transform.position.x < 14.21){
-           this.transform.Translate(x: _movimento, y: 0, z: 0); 
-        }
-
-        if(transform.position.x >= 14){
-           this.transform.Translate(x: -_movimento, y: 0, z: 0); 
-        }
-
-        //transform.position -= transform.forward * velocidade * Time.deltaTime;
-    }*/
-    
     void Update()
     {
         Debug.Log(countDown);
@@ -32,12 +19,12 @@ public class MovimentaParede : MonoBehaviour
         // Movimenta a parede de acordo com a orientação de sua rotação.
         if(countDown > 0.0f)
         {
-            transform.position += Vector3.forward * Time.deltaTime;
+            transform.position += Vector3.left * Time.deltaTime;
             countDown -= Time.deltaTime;
         }
         else if (countDown <= 0.0f)
         {
-            transform.position += Vector3.back * Time.deltaTime;
+            transform.position += Vector3.right * Time.deltaTime;
             countDown -= Time.deltaTime;
             if(countDown <= -5.0f)
             {

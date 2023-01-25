@@ -15,7 +15,7 @@ public class MovimentoCaixa : MonoBehaviour
               rotacaoHorizontal = Input.GetAxis("Horizontal") * desl,
               rotacaoVetical = Input.GetAxis("Vertical") * desl;
 
-        transform.Rotate(rotacaoVetical, 0, rotacaoHorizontal);
+        transform.Rotate(rotacaoVetical, 0, -rotacaoHorizontal);
 
     }
 
