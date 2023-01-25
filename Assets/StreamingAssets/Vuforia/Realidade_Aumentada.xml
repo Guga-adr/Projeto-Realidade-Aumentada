@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+    <Tracking>
+        <ImageTarget name="HABBIBS.Right" size="0.210000 0.060036"/>
+        <ImageTarget name="HABBIBS.Front" size="0.250000 0.060024"/>
+        <ImageTarget name="HABBIBS.Top" size="0.250000 0.210011"/>
+        <ImageTarget name="HABBIBS.Bottom" size="0.250000 0.210011"/>
+        <ImageTarget name="HABBIBS.Left" size="0.210000 0.060036"/>
+        <ImageTarget name="HABBIBS.Back" size="0.250000 0.060024"/>
+        <MultiTarget name="HABBIBS">
+            <Part name="HABBIBS.Left" translation="-0.125 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="HABBIBS.Right" translation="0.125 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="HABBIBS.Front" translation="0 0 0.10499999672174454" rotation="AD: 1 0 0 0"/>
+            <Part name="HABBIBS.Back" translation="0 0 -0.10499999672174454" rotation="AD: 0 1 0 180"/>
+            <Part name="HABBIBS.Top" translation="0 0.029999999329447746 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="HABBIBS.Bottom" translation="0 -0.029999999329447746 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+    </Tracking>
+</QCARConfig>
