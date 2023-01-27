@@ -19,12 +19,12 @@ public class MovimentaParedeLR : MonoBehaviour
         // Movimenta a parede de acordo com a orientação de sua rotação.
         if(countDown > 0.0f)
         {
-            transform.position += Vector3.left * Time.deltaTime;
+            transform.position += transform.right * Time.deltaTime;
             countDown -= Time.deltaTime;
         }
         else if (countDown <= 0.0f)
         {
-            transform.position += Vector3.right * Time.deltaTime;
+            transform.position -= transform.right * Time.deltaTime;
             countDown -= Time.deltaTime;
             if(countDown <= -5.0f)
             {
