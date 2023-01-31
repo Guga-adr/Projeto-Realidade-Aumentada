@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig>
     <Tracking>
+        <ImageTarget name="marker_button" size="0.045000 0.045000"/>
         <ImageTarget name="HABBIBS.Right" size="0.210000 0.060036"/>
         <ImageTarget name="HABBIBS.Front" size="0.250000 0.060024"/>
         <ImageTarget name="HABBIBS.Top" size="0.250000 0.210011"/>
