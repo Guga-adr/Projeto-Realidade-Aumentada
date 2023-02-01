@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SegundaFase.unity
     guid: 7cecf5c2be9b5ea4da4c9aa47e4bce10
+  - enabled: 1
+    path: Assets/Scenes/FimJogo.unity
+    guid: 394c67c42280c804186720c227211f6a
   m_configObjects: {}
